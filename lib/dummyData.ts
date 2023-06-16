@@ -3,6 +3,18 @@ export interface BtnInfoProps {
     btnName: string;
 }
 
+export interface VideoProps {
+    id: number;
+    thumbnail: string;
+    playtime: string;
+    avatar: string;
+    videoTitle: string;
+    nickname: string;
+    views: string;
+    uploadDate: string;
+}
+
+
 export const btnInfo: BtnInfoProps[] = [
     {
         id: 1,
